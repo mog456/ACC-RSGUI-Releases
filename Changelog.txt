@@ -2,3 +2,4 @@ Testing clowd squirrel updater
 update 02
 update 03
 04
+05
