@@ -1,4 +1,8 @@
 # ACC_RemoteServer_GUI
+##### Contents  
+[INSTALL](#install)
+[ISSUES](#issues)
+[USER GUIDE](#guide)
 
 <picture>
   <center>
@@ -11,6 +15,20 @@
 ACC RSGUI (ACC Remote Server GUI) aims to help server managers easily edit and configure server setups. The GUI contains all the main elements used when concofiguring a server but avoids issues that can crop up with editing JSON files.
 
 The app will notify users of updates as they are released. Push the update button when it appears to update and restart the app. Saved profiles should not be affected.
+
+# INSTALL
+ACC RS GUI uses <a href = "https://github.com/clowd/Clowd.Squirrel" target= "_blank">Clowd Squirrel</a> to create and manage app installs and updates. ACC RS GUI will create a desktop shortcut and install local app files in  ..\AppData\Local\ACC_RS_GUI. Latest updates from <a href = "https://github.com/mog456/ACC-RSGUI-Releases/releases" target="_blank"> https://github.com/mog456/ACC-RSGUI-Releases/releases</a> will be noted by the app and the user will be notified with a restart button after the update is complete.
+
+On running  the app, a directory structure will be created in Documents/ACC RS GUI Settings. This dir contains all server configs, last session data and ACC server JSON files.
+
+# ISSUES <a name = "issues" />
+1. <b>THIS IS A BETA RELEASE!</b> Before running any uploads to your server I would suggest to make a backup of the current server/cfg folder so it can be replaced if anything goes wrong. This is now in testing so any probs let me know and I can propbaly adapt the existing functionality and release an update.
+2. There are currently <b>NO WARNINGS</b> when uploading/downloading files - so once you push the buttons data WILL be overwritten.
+3. On boot the app will search for any previous use sessions and attempt to load the corresponding data. This is not functional atm on boot and needs the user to press the 'LOAD' button (on the 'Local Files') section in order to properly populate the Weather/Advanced tabs data.
+4. Did I mention this is a beta release? Good.
+5. Any bugs/issues can be reported <a href="https://github.com/mog456/ACC-RSGUI-Releases/issues" target = _blank>here</a>
+
+
 
 # GUIDE
 ## Main Tab
@@ -33,7 +51,7 @@ Contains various messsages from the app. Can be used to troubleshoot. (currently
 The main thing to note here is the 'Enable' checkboxes for P/Q/R sessions. These checkboxes indicate whether or not the session will be included in the configuration.
 
 ## Weather Tab
-In development but functional in terms of setting weather conditions.
+Set weather conditions based on the ACC wiki
 
 ## Advanced Tab
 Contains the other settings you're looking for...
