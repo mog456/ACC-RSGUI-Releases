@@ -32,6 +32,12 @@ On running  the app, a directory structure will be created in Documents/ACC RS G
 # GUIDE
 ## Main Tab
 main settings and connect/save options
+
+### FIRST BOOT
+On first boot no info will be available. Enter your credentials and click 'Download' button on remote files area. This will attempt to make a copy of the active (/cfg) folder on your server. If connection is successful a new profile (named 'serverName') will be available in subsequent sessions.
+
+<b>Check the Weather and Avanced tabs - if no data os present there may have been a connection error. Check the black ops console (can be scrolled up) for reported connection issues.</b>
+
 #### REMOTE FILES
 SFTP and connection info are in the form 123.456.789.101:12345 - this is based specifically on GTX gaming servers. If your server is different and you cannot connect let me know and I'll add required formatting.
 As a guide SFTP info is formatted 123.456.789.101:SFTP_Port_Number.
