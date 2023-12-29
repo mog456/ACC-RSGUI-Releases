@@ -54,7 +54,7 @@ As a guide SFTP info is formatted 123.456.789.101:SFTP_Port_Number.
 
 Download button will test credentials then download and OVERWRITE any local files that exist. Will also create a new User Profile per server connection that will be available via the LOCAL FILES/Available Profiles drop down. This action will create a new local dir (if it doesn't exist) containing a copy of all JSONs in yourServer/cfg.
 
-Upload button will OVERWRITE ALL configuration files in yourServer/cfg directory with your edited (local) settings.
+Upload button will OVERWRITE ALL configuration files in yourServer/cfg directory with your edited (local) settings. <b>You will have to restart your server from your host to apply the changes</b.
 
 #### LOCAL FILES
 Load/save local configs from previous sessions. BUG NOTE - on load the app will TRY and load the last settings but you may need to hit the LOAD button again and check all fields (e.g. in Advanced) have beeen populated.
