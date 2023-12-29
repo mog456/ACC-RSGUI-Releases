@@ -40,8 +40,9 @@ main settings and connect/save options
 3. Edit the settings as needed
 4. 'Save Profile' button will write all data to the LOCAL folder - Documents/ACC RS GUI Settings/yourServerName/cfg - it will not upload any content
 5. 'Upload' button will OVERWRITE files on yourServer/cfg with the local settings (in the app). There will be no warning...(haven't done that yet)...it will not be televised....so make sure you've got a backup...
-6. On subsequent use (after first boot) your last session will load automatically. There is an issue here so you'll need to press the 'LOAD PROFILE' button again to make sure all fields are populated.
-7. When updates are available you will be notified with a 'Restart Now' button. Updates are installed sliently and rebooting the app will apply any updates
+6. <b>You will have to restart your server from your host to apply the new config</b.
+7. On subsequent use (after first boot) your last session will load automatically. There is an issue here so you'll need to press the 'LOAD PROFILE' button again to make sure all fields are populated.
+8. When updates are available you will be notified with a 'Restart Now' button. Updates are installed sliently and rebooting the app will apply any updates
 
 ### TROUBLESHOOTING
 - Check the info panel on the right hand side of the main tab for error info. 
