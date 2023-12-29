@@ -33,10 +33,18 @@ On running  the app, a directory structure will be created in Documents/ACC RS G
 ## Main Tab
 main settings and connect/save options
 
-### FIRST BOOT
-On first boot no info will be available. Enter your credentials and click 'Download' button on remote files area. This will attempt to make a copy of the active (/cfg) folder on your server. If connection is successful a new profile (named 'serverName') will be available in subsequent sessions.
+### QUICK START
+1. On first boot 'Available Profiles' will be empty. Enter your credentials and click 'Connect' button. If connection is successful a new profile (named 'serverName') will be available in subsequent sessions.
+2. Next try the 'Download' button. This will copy all the JSON files from your 'server/cfg' to '/Documents/ACC RS GUI Settings/yourServerName/cfg'. The app will then load the JSON data into the editor. Check 'Weather' and 'Advanced' tabs to make sure all data has populated (this is a known issue). If the fields have not completely populated try 'Load Profile' again from the main tab.
+3. Edit the settings as needed
+4. 'Save Profile' button will write all data to the LOCAL folder - Documents/ACC RS GUI Settings/yourServerName/cfg - it will not upload any content
+5. 'Upload' button will OVERWRITE files on yourServer/cfg with the local settings (in the app). There will be no warning...(haven't done that yet)...it will not be televised....so make sure you've got a backup...
+6. On subsequent use (after first boot) your last session will load automatically. There is an issue here so you'll need to press the 'LOAD PROFILE' button again to make sure all fields are populated.
 
-<b>Check the Weather and Avanced tabs - if no data os present there may have been a connection error. Check the black ops console (can be scrolled up) for reported connection issues.</b>
+### TROUBLESHOOTING
+- Check the info panel on the right hand side of the main tab for error info. 
+- Make sure your configuraTION INFO (USER,PASSWORD, ETC) are correct. Trying the 'CONNECT' button will give you an idea of any errors in connecting to your server. 
+- Other issues contact me
 
 #### REMOTE FILES
 SFTP and connection info are in the form 123.456.789.101:12345 - this is based specifically on GTX gaming servers. If your server is different and you cannot connect let me know and I'll add required formatting.
