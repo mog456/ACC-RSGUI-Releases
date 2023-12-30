@@ -1,11 +1,5 @@
 # ACC_RemoteServer_GUI
 
-## Content
-[Install](#install)
-[Issues](#issues)
-[UserGuide](#guide)
-[TODO](#todo)
-
 <picture>
   <center>
   <source media="(prefers-color-scheme: dark)" srcset="img/Screenshot%202023-12-18%20113509.png">
