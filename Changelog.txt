@@ -1,3 +1,6 @@
 v1.05 beta RELEASE
 -issues with profile save fixed
 
+v1.0.6 beta
+removed ACC wiki - embedded URL
+
