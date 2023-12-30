@@ -14,14 +14,12 @@
   </center>
 </picture>
 
-ACC RSGUI (ACC Remote Server GUI) aims to help server managers easily edit and configure server setups. The GUI contains all the main elements used when configuring a server but avoids issues that can crop up with editing JSON files.
-
-The app will notify users of updates as they are released. Push the update button when it appears to update and restart the app. Saved profiles should not be affected.
+ACC RSGUI (ACC Remote Server GUI) aims to help server managers easily edit and configure server setups. The GUI contains all the main elements used when configuring a server but avoids issues that can crop up with editing JSON files. The app will notify users of updates as they are released. Push the update button when it appears to update and restart the app. Saved profiles should not be affected.
 
 # INSTALL
-ACC RS GUI uses <a href = "https://github.com/clowd/Clowd.Squirrel" target= "_blank">Clowd Squirrel</a> to create and manage app installs and updates. ACC RS GUI will create a desktop shortcut and install local app files in  ..\AppData\Local\ACC_RS_GUI. Latest updates from <a href = "https://github.com/mog456/ACC-RSGUI-Releases/releases" target="_blank"> https://github.com/mog456/ACC-RSGUI-Releases/releases</a> will be noted by the app and the user will be notified with a restart button after the update is complete.
+ACC RS GUI uses <a href = "https://github.com/clowd/Clowd.Squirrel" target= "_blank">Clowd Squirrel</a> to create and manage app installs and updates. ACC RS GUI will create a desktop shortcut and install local app files in  ..\AppData\Local\ACC_RS_GUI. Latest updates from <a href = "https://github.com/mog456/ACC-RSGUI-Releases/releases" target="_blank"> https://github.com/mog456/ACC-RSGUI-Releases/releases</a> will be installed silently and applied after restart.
 
-On running  the app, a directory structure will be created in Documents/ACC RS GUI Settings. This dir contains all server configs, last session data and ACC server JSON files.
+On running  the app, a directory structure will be created in 'Documents/ACC RS GUI Settings'. This dir contains all server configs, last session data and ACC server JSON files.
 
 # ISSUES
 1. <b>THIS IS A BETA RELEASE!</b> Before running any uploads to your server I would suggest to make a backup of the current server/cfg folder so it can be replaced if anything goes wrong. This is now in testing so any probs let me know and I can propbaly adapt the existing functionality and release an update.
@@ -46,7 +44,7 @@ main settings and connect/save options
 
 ### TROUBLESHOOTING
 - Check the info panel on the right hand side of the main tab for error info. 
-- Make sure your configuraTION INFO (USER,PASSWORD, ETC) are correct. Trying the 'CONNECT' button will give you an idea of any errors in connecting to your server. 
+- Make sure your configurationINFO (USER,PASSWORD, ETC) are correct. Trying the 'CONNECT' button will give you an idea of any errors in connecting to your server. 
 - Other issues contact me
 
 #### REMOTE FILES
@@ -76,8 +74,8 @@ Contains the other settings you're looking for...
 Empty, in development
 </div>
 
-## ACC Server Wiki
-Contains all info from the ACC Server Config Wiki page
+<s>## ACC Server Wiki
+Contains all info from the ACC Server Config Wiki page</s>
 
 # TODO
 - add weather profiles Load/Save
